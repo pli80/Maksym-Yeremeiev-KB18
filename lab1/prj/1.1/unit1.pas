@@ -87,8 +87,8 @@ end;
 procedure TForm1.MenuItem3Click(Sender: TObject);
 begin
   Memo1.Lines.Text:='(с) Єремеєв Максим';
-  Memo1.Lines.Add('Програма створена для ознайомлення'#10'Побачете якщо хтось продає - задудосьте)');
-
+  Memo1.Lines.Add('Програма створена для ознайомлення');
+  Memo1.Lines.Add('Рік розробки: 2019');
 end;
 
 
@@ -111,7 +111,7 @@ end;
 
 procedure TForm1.MenuItem7Click(Sender: TObject);
 begin
-  ShowMessage('Ура!!! Кхм... Що? А ви щось очікували?');
+  ShowMessage('Ця кнопка знаходиться в стадії розробки'#10'Її функціонал буде реалізований найближчим часом');
 end;
 
 procedure TForm1.Button1Click(Sender: TObject);
