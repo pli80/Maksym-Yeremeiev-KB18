@@ -123,7 +123,7 @@ end;
 
 procedure TForm1.MenuItem1Click(Sender: TObject);
 begin
- ShowMessage('Коротко про роботу програми:'#10'Існують три поля введення: x,y,z'#10'Х та Z не повинні бути від''ємними. ');
+ ShowMessage('Існують три поля введення: x,y,z'#10'Х та Z не повинні бути від''ємними. ');
 end;
 
 procedure TForm1.MenuItem2Click(Sender: TObject);
@@ -133,7 +133,7 @@ end;
 
 procedure TForm1.MenuItem3Click(Sender: TObject);
 begin
-    ShowMessage('Реліз не для продажу!'#10'(с) Єремеєв М.О.'#10'побачете якщо хтось продає - дудосьте');
+    ShowMessage('Реліз не для продажу!'#10'(с) Єремеєв М.О.');
 end;
 
 procedure TForm1.MenuItem4Click(Sender: TObject);
